@@ -36,9 +36,33 @@
       overflow: hidden;
     }
 
-    .button,
+    .tile-button,
     .toolbar-button {
+      -webkit-background-clip: padding-box;
+      -moz-background-clip: padding-box;
+      background-clip: padding-box;
+      background-color: #fff;
+      background-image: -webkit-linear-gradient(white, #bdbdbd);
+      background-image: -moz-linear-gradient(white, #bdbdbd);
+      background-image: -ms-linear-gradient(white, #bdbdbd);
+      background-image: -webkit-gradient(linear, center top, center bottom, color-stop(0, white), color-stop(1, #bdbdbd));
+      background-image: linear-gradient(white, #bdbdbd);
+      -moz-border-radius: .25rem;
+      -webkit-border-radius: .25rem;
+      border-radius: .25rem;
+      color: #383838;
+      border: .0625rem solid #646464;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: .9375rem;
+      text-align: center;
+      padding-top: .125rem;
+      padding-bottom: .125rem;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+      height: 1.875rem;
       line-height: unset !important;
+      width: auto;
     }
   </style>
 
